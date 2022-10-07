@@ -39,6 +39,10 @@ h1{
 .box:nth-of-type(even){
   transform: translateX(-200%);
 }
-.box-shadow {
+.box.shadow {
   transform: translateX(0);
+}
+
+.box h2 {
+  font-size: 40px;
 }
