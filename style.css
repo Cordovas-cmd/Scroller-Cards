@@ -30,5 +30,15 @@ h1{
   margin: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
-  /* transform: translateX(200%) */
+  /* move the cards off the screen unless they have a class of show. */
+  transform: translateX(200%);
+  transition: transform -.4s ease;
+}
+
+/* every other box wil react this way */
+.box:nth-of-type(even){
+  transform: translateX(-200%);
+}
+.box-shadow {
+  transform: translateX(0);
 }
