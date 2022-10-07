@@ -39,7 +39,7 @@ h1{
 .box:nth-of-type(even){
   transform: translateX(-200%);
 }
-.box.shadow {
+.box.show {
   transform: translateX(0);
 }
 
