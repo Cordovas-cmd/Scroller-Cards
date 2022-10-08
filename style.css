@@ -31,13 +31,13 @@ h1{
   border-radius: 10px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
   /* move the cards off the screen unless they have a class of show. */
-  transform: translateX(200%);
-  transition: transform -.4s ease;
+  transform: translateX(calc(100vw));
+  transition: transform 0.4s ease;
 }
 
 /* every other box wil react this way */
 .box:nth-of-type(even){
-  transform: translateX(-200%);
+  transform: translateX(-100vw);
 }
 .box.show {
   transform: translateX(0);
